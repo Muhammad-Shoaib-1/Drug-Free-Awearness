@@ -36,3 +36,48 @@
 .btn-primary:hover {
     background-color: #003c9e;
 }
+
+/* About Section  */
+
+.about-header {
+    background: linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s forwards;
+}
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards 0.5s;
+}
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.team-member {
+    transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
