@@ -42,11 +42,8 @@
             <h1 class="display-3 fw-bold fade-in HeroContainerH1">Say No to Drugs, Say Yes to Life</h1>
             <p class="lead fade-in delay-1">Together, we can build a healthier, drug-free future.</p>
             <a href="#resources" class="btn btn-warning btn-lg mt-3 fade-in delay-2">Learn More</a>
-        </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
+    </header>
         <div class="container">
             <h2 class="section-title text-center">Understanding Drug Addiction</h2>
             <p class="lead text-center">Drug addiction is a complex but treatable disease that affects brain function
@@ -69,7 +66,6 @@
             </div>
         </div>
     </section>
-
 
     
     <!-- Event Details Section -->
@@ -96,47 +92,45 @@
                     </ul>
                     <div class="mt-4">
                         <a href="events.html" class="btn btn-outline-info btn-lg">🎟️ All Events</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
 
     <!-- FAQ Section -->
-    <section id="faq" class="py-5">
-        <div class="container">
-            <h2 class="section-title text-center">Frequently Asked Questions</h2>
-            <div class="accordion" id="faqAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="q1">
-                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#a1">
-                            What are the most commonly abused substances?
-                        </button>
-                    </h2>
-                    <div id="a1" class="accordion-collapse collapse show">
-                        <div class="accordion-body">
-                            Alcohol, tobacco, marijuana, prescription opioids, cocaine, and methamphetamine.
-                        </div>
+    <section class="faq-container mt-5">
+        <div class="accordion" id="faqAccordion">
+            <!-- Common Questions -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">
+                        What are the most commonly abused substances?
+                    </button>
+                </h2>
+                <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Alcohol, tobacco, marijuana, prescription opioids, cocaine, and methamphetamine are among the
+                        most commonly abused substances.
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="q2">
-                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#a2">
-                            How can I help someone struggling with addiction?
-                        </button>
-                    </h2>
-                    <div id="a2" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            Offer support, encourage treatment, and educate yourself on addiction recovery.
-                        </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#a2">
+                        How can I recognize if someone is struggling with drug addiction?
+                    </button>
+                </h2>
+                <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Signs include changes in behavior, withdrawal from social activities, mood swings, financial
+                        issues, and physical symptoms like weight loss and red eyes.
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
 
     <!-- Contact Section -->
     <section id="contact" class="py-5">
