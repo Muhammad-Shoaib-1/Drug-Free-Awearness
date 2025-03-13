@@ -75,6 +75,62 @@ body {
 
 }
 
+.faq-header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: auto;
+}
+.faq-container {
+    max-width: 1350px;
+    margin: 40px auto; 
+    padding: 20px;
+}
+
+
+.events-header {
+    background: linear-gradient(90deg, rgba(255,26,92,1) 25%, rgba(255,154,123,1) 77%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s forwards;
+    margin-top: 20px;
+    border-top: 3px solid red;
+}
+
+.event-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+< !-- CSS Animations -->#cta {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Footer */
 .footer {
     background: rgb(0 0 0 / 20%);
@@ -164,4 +220,9 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.display-4{
+    margin-top: 100px;
+    
 }

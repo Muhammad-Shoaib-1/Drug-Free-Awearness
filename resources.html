@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="styles.css"> <!-- Custom CSS -->
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: "Karla", sans-serif;
             background-color: #f4f4f9;
+        }
+
+        section .fw-bold {
+                margin-top: 100px;
+                font-family: "Karla", sans-serif;
         }
 
         .resources-header {
@@ -53,22 +58,20 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light"
-        style="background: linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);">
+    <!-- Transparent Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container">
-            <a class="navbar-brand text-white fw-bold" href="index.html">Drug-Free Awareness</a>
+            <a class="navbar-brand fw-bold" href="/">Drug-Free Awareness</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="resources.html">Resources</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="events.html">Events</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="faq.html">FAQs</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -76,8 +79,8 @@
 
     <!-- Introduction Section -->
     <section class="container text-center mt-5">
-        <h2 class="fw-bold">Empowering You with Knowledge</h2>
-        <p class="lead text-muted">
+        <h2 class="fw-bold"><b>Empowering You with Knowledge</b></h2>
+        <p class="lead text-white">
             Our goal is to provide valuable resources that educate, support, and empower individuals and communities
             in the fight against substance abuse. Whether you're looking for educational guides, support networks,
             or prevention strategies, you'll find the right tools here to make informed and healthy choices.
@@ -154,15 +157,13 @@
         <div class="row mt-3">
             <div class="col-md-6">
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/3cYw7yMABoc" title="Drug Awareness Video"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hBC7i-vHWsU?si=R7NdKLdBiXP4UXjS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <p class="text-center mt-2">Understanding Drug Abuse & Prevention</p>
             </div>
             <div class="col-md-6">
                 <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/abcd1234xyz" title="Effects of Drugs"
-                        allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8qK0hxuXOC8?si=DsXMb9V2QRFhIKDm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <p class="text-center mt-2">Effects of Drugs on the Brain & Body</p>
             </div>
@@ -256,6 +257,41 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Muhammad-Shoaib-1" target="_blank" class="me-3"><i
+                            class="fab fa-github"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-md-4 text-end">
+                    <h5>Developer</h5>
+                    <p>Designed by <a href="https://github.com/Muhammad-Shoaib-1" target="_blank"
+                            class="text-warning">Shoaib</a> &
+                        <a href="https://github.com/Muhammad-waqas1" target="_blank" class="text-warning">Waqas</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p>© 2025 Drug-Free Awareness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
 
