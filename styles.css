@@ -9,7 +9,8 @@ body {
     /* Dark gradient */
     color: #e0e0e0;
     /* Light text for contrast */
-    font-family: "Karla", sans-serif;
+    font-family: 'Arial', sans-serif;
+            /* background-color: #f4f4f9; */
     font-optical-sizing: auto;
     background-image: url(images/BodyBg.jpg);
     /* background-size: contain; */
@@ -115,7 +116,9 @@ body {
     }
 }
 
-< !-- CSS Animations -->#cta {
+/* < !-- CSS Animations --> */
+
+#cta {
     animation: fadeInUp 1s ease-in-out;
 }
 
@@ -172,7 +175,7 @@ body {
 
 .delay-2 {
     animation-delay: 0.6s;
-=======
+}
 .btn-primary:hover {
     background-color: #003c9e;
 }
@@ -180,7 +183,7 @@ body {
 /* About Section  */
 
 .about-header {
-    background: linear-gradient(90deg, #0052D4, #4364F7, #6FB1FC);
+    background: linear-gradient(90deg, rgba(255, 26, 92, 1) 25%, rgba(255, 154, 123, 1) 77%);
     color: white;
     padding: 60px 0;
     text-align: center;
